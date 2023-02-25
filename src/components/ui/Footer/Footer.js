@@ -1,14 +1,8 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaReact,
-  FaFigma,
-  FaTwitter,
-} from "react-icons/fa";
-import "./footer.css";
+import { FaGithub, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
+import "./footer.css";
 
 function Footer() {
   return (
