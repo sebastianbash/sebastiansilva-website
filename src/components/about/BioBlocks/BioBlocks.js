@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import figmaIcon from "./bio-block-icons/figma-tech-icon.svg";
 import followerIcon from "./bio-block-icons/follower-icon.svg";
 import gitIcon from "./bio-block-icons/git-tech-icon.svg";
@@ -11,51 +11,10 @@ import "./bioBlocks.css";
 
 // This is static top section of the page and gives it semantic value.
 function BioBlocks() {
-  // Local State
-  const [articleCount, setArticlesCount] = useState([]);
-  const [latestArticle, setLatestArticle] = useState([]);
-  const [reactions, setReactions] = useState(0);
-
-  // Created by https://stackoverflow.com/a/2686098/12817163
-  const abbrNum = (number, decPlaces) => {
-    // 2 decimal places => 100, 3 => 1000, etc
-    decPlaces = Math.pow(10, decPlaces);
-
-    // Enumerate number abbreviations
-    const abbrev = ["k", "m", "b", "t"];
-
-    // Go through the array backwards, so we do the largest first
-    for (let i = abbrev.length - 1; i >= 0; i--) {
-      // Convert array index to "1000", "1000000", etc
-      const size = Math.pow(10, (i + 1) * 3);
-
-      // If the number is bigger or equal do the abbreviation
-      if (size <= number) {
-        // Here, we multiply by decPlaces, round, and then divide by decPlaces.
-        // This gives us nice rounding to a particular decimal place.
-        number = Math.round((number * decPlaces) / size) / decPlaces;
-
-        // Handle special case where we round up to the next abbreviation
-        if (number === 1000 && i < abbrev.length - 1) {
-          number = 1;
-          i++;
-        }
-
-        // Add the letter for the abbreviation
-        number += abbrev[i];
-
-        // We are done... stop
-        break;
-      }
-    }
-
-    return number;
-  };
-
   const prjStatsData = [
     {
       stat: "reactions",
-      statNumber: abbrNum(reactions, 2) + "+",
+      statNumber: 0 + "+",
       icon: reactionIcon,
     },
     {
@@ -89,13 +48,6 @@ function BioBlocks() {
 
     return statElements.push(singleStat);
   });
-
-  const titleFormater = (title) => {
-    const titleArray = title === undefined ? "Cargando..." : title.split("");
-    return titleArray.length < 48
-      ? titleArray
-      : titleArray.slice(0, 48).join("") + "...";
-  };
 
   return (
     <section className="bio-blocks">
@@ -137,15 +89,10 @@ function BioBlocks() {
           </div>
         </div>
       </a>
-      <a
-        className="block"
-        href={latestArticle.url ? latestArticle.url : ""}
-        rel="noopener noreferrer"
-        target="_blank"
-      >
+      <a className="block" href="*" rel="noopener noreferrer" target="_blank">
         <div className="block__header">
           <h5>Ver el último proyecto...</h5>
-          <h3>{titleFormater(latestArticle.title)}</h3>
+          <h3>Portfolio</h3>
         </div>
         <div className="block__blog-container">{statElements}</div>
       </a>
