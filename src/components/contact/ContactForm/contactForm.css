@@ -1,0 +1,108 @@
+.contact__form-bg {
+    -webkit-box-shadow:  0px 14px 41px rgba(0, 0, 0, 0.35), 0px 4px 13px rgba(0, 0, 0, 0.35), 0px 10px 60px 10px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:  0px 14px 41px rgba(0, 0, 0, 0.35), 0px 4px 13px rgba(0, 0, 0, 0.35), 0px 10px 60px 10px rgba(0, 0, 0, 0.25);
+    box-shadow:  0px 14px 41px rgba(0, 0, 0, 0.35), 0px 4px 13px rgba(0, 0, 0, 0.35), 0px 10px 60px 10px rgba(0, 0, 0, 0.25);
+    padding: 80px;
+    border-radius: 30px;
+    background-color: var(--dark-gray);
+}
+
+.contact__submit-btn {
+    background-color: var(--mid-grey1);
+    max-width: 200px;
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: .75rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: ease-in-out .2s;
+}
+
+.contact__reset-btn {
+    background-color: var(--nav-filter-links);
+    max-width: 200px;
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-top: 20px;
+}
+
+.contact__submit-btn:hover {
+    background-color: var(--mid-grey);
+    color: var(--light-grey);
+    transition: ease-in-out .2s;
+
+
+}
+
+.contact__email-container {
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.contact__email-txt {
+    position: relative;
+    top: -100px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact__email-txt p {
+   margin: 0;
+}
+
+
+@media only screen and (max-width: 993px) {
+  
+    .contact__email-txt {
+        top: -70px;
+    }
+
+    .contact__email-txt p a {
+        text-decoration: underline;
+    }
+  
+}
+  
+@media only screen and (max-width: 767px) {
+    .contact__email-txt {
+        top: -30px;
+    }
+
+    .contact__email-txt p a {
+        text-decoration: underline;
+    }
+
+    .contact__submit-btn,
+    .contact__reset-btn {
+        max-width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 439px) {
+    .contact__email-txt {
+        top: -30px;
+    }
+
+    .contact__form-bg {
+        padding: 20px 25px 30px;
+        border-radius: 10px;
+
+    }
+}
