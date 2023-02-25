@@ -1,0 +1,29 @@
+[
+    {
+        "img": "http://via.placeholder.com/640x360",
+        "title": "PomoGo",
+        "tech": "",
+        "deployLink": "",
+        "repoLink": ""
+    },
+    {
+        "img": "http://via.placeholder.com/640x360",
+        "title": "Notes App",
+        "tech": "React.js, Hooks, SASS, CSS Grids, Flexbox, CSS Animations, Redux, Redux-Thunk, Axios, PWA, OMDB API, Javascript, Figma",
+        "deployLink": "",
+        "repoLink": ""
+    },
+    {
+        "img": "http://via.placeholder.com/640x360",
+        "title": "E-Line",
+        "tech": "",
+        "deployLink": ""
+    },
+    {
+        "img": "http://via.placeholder.com/640x360",
+        "title": "Portfolio",
+        "tech": "",
+        "deployLink": "",
+        "repoLink": ""
+    }
+]

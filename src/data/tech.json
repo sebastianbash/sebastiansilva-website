@@ -1,0 +1,140 @@
+[
+    {
+        "name": "HTML",
+        "link": "https://www.trust4leaders.com/",
+        "svg": "/assets/images/tech-icons/html-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "CSS",
+        "link": "https://dev.to/gedalyakrycer/ohsnap-staggered-css-animations-sass-loops-4dk0",
+        "svg": "/assets/images/tech-icons/css-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "SASS",
+        "link": "https://dev.to/gedalyakrycer/the-shoppies-my-project-submission-for-shopify-s-front-end-internship-36ee",
+        "svg": "/assets/images/tech-icons/sass-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "CSS Grids",
+        "link": "https://github.com/GedalyaKrycer/css-grids-wes-bos",
+        "svg": "/assets/images/tech-icons/css-grids-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Bootstrap",
+        "link": "https://www.trust4leaders.com/",
+        "svg": "/assets/images/tech-icons/bootstrap-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "TailwindCss",
+        "link": "https://github.com/GedalyaKrycer/weather-forecaster",
+        "svg": "/assets/images/tech-icons/bulma-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "React",
+        "link": "https://dev.to/gedalyakrycer/react-and-its-lifecycle-methods-explained-1589",
+        "svg": "/assets/images/tech-icons/react-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Redux",
+        "link": "https://github.com/GedalyaKrycer/screen-it",
+        "svg": "/assets/images/tech-icons/redux-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "JavaScript",
+        "link": "https://github.com/GedalyaKrycer/digibit-employee-directory",
+        "svg": "/assets/images/tech-icons/js-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "jQuery",
+        "link": "https://github.com/dpayton92/Vegg_In_Place_Survival_Kit",
+        "svg": "/assets/images/tech-icons/jquery-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Styled-Components",
+        "link": "https://github.com/GedalyaKrycer/digibit-employee-directory",
+        "svg": "/assets/images/tech-icons/js-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "GSAP3",
+        "link": "https://github.com/GedalyaKrycer/gedalyakrycer.github.io",
+        "svg": "/assets/images/tech-icons/gsap3-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Node.js",
+        "link": "https://github.com/GedalyaKrycer/hw-10-employee-summary",
+        "svg": "/assets/images/tech-icons/node-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Axios",
+        "link": "https://github.com/GedalyaKrycer/weather-forecaster",
+        "svg": "/assets/images/tech-icons/axios-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Firebase",
+        "link": "https://workoutme.app/",
+        "svg": "/assets/images/tech-icons/firebase-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Wordpress",
+        "link": "https://www.trust4leaders.com/",
+        "svg": "/assets/images/tech-icons/wp-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Git (GitHub)",
+        "link": "https://github.com/GedalyaKrycer",
+        "svg": "/assets/images/tech-icons/git-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Visual Studio Code",
+        "link": "https://dev.to/gedalyakrycer/10-visual-studio-code-tricks-to-unleash-your-productivity-p6a",
+        "svg": "/assets/images/tech-icons/vs-code-tech-icon.svg",
+        "type": "dev"
+    },
+    {
+        "name": "Figma",
+        "link": "https://www.figma.com/file/EHbfwBaOA1QPQggMB3rZby/A-Team-%E2%80%94-Car-Maintainence-Tracker?node-id=448%3A435",
+        "svg": "/assets/images/tech-icons/figma-tech-icon.svg",
+        "type": "design"
+    },
+    {
+        "name": "Photoshop",
+        "link": "https://gedalya.myportfolio.com/poster-variety",
+        "svg": "/assets/images/tech-icons/ps-tech-icon.svg",
+        "type": "design"
+    },
+    {
+        "name": "Illustrator",
+        "link": "https://gedalya.myportfolio.com/logo-variety",
+        "svg": "/assets/images/tech-icons/ai-tech-icon.svg",
+        "type": "design"
+    },
+    {
+        "name": "React Native",
+        "link": "https://www.udemy.com/course/react-native-the-practical-guide/",
+        "svg": "/assets/images/tech-icons/react-native-tech-icon.svg",
+        "type": "learning"
+    },
+    {
+        "name": "Typescript",
+        "link": "https://www.udemy.com/course/react-native-the-practical-guide/",
+        "svg": "/assets/images/tech-icons/react-native-tech-icon.svg",
+        "type": "learning"
+    }
+]

@@ -1,0 +1,68 @@
+.title {
+  font-size: 3rem;
+}
+
+.header__sub-title {
+  color: var(--white);
+  max-width: 210px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.header__backword-container {
+  position: relative;
+}
+
+.header__backword-upon {
+  position: absolute;
+  top: 150px;
+  /* right: 280px; */
+  /* right: 180px; */
+  right: calc(50% - 100px);
+
+  color: var(--white);
+  font-family: "Reenie Beanie", cursive;
+  font-size: 4rem;
+
+  opacity: 1;
+}
+
+/* ————————————————————————————————————————————————
+///////////////////////////////////////////////////
+
+Mobile Styles
+
+///////////////////////////////////////////////////
+————————————————————————————————————————————————— */
+
+/* 767px — Breakpoint */
+@media only screen and (max-width: 993px) {
+    
+    .header__backword-upon {
+        top: 90px;
+        right: 150px;
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 439px) {
+    
+  .header__backword-container .header__backword {
+      margin-bottom: 30px;
+      font-size: 4rem;
+  }
+
+  .header__backword-upon {
+      top: 30px;
+      right: 50px;
+      font-size: 1.75rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+}
