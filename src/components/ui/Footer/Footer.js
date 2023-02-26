@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import "./footer.css";
+import resumeFile from "../../../assets/resume/cv-sebastian-2023.pdf";
 
 function Footer() {
   return (
@@ -13,7 +14,7 @@ function Footer() {
         </Link>
 
         <a
-          href="*"
+          href={resumeFile}
           download={true}
           target="_blank"
           rel="noopener noreferrer"

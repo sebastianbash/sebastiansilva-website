@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./rightInfoPin.css";
 import { gsap } from "gsap";
+import resumeFile from "../../../assets/resume/cv-sebastian-2023.pdf";
 
 function RightInfoPin() {
   // Ref for Right Info Pin link
@@ -25,7 +26,7 @@ function RightInfoPin() {
         download={true}
         target="_blank"
         rel="noopener noreferrer"
-        href="*"
+        href={resumeFile}
         className="rightInfoPin__link"
       >
         Resume
