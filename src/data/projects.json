@@ -3,27 +3,27 @@
         "img": "http://via.placeholder.com/640x360",
         "title": "PomoGo",
         "tech": "",
-        "deployLink": "",
-        "repoLink": ""
+        "deployLink": "https://pomogo.netlify.app",
+        "repoLink": "https://github.com/sebastianbash/pomogo"
     },
     {
         "img": "http://via.placeholder.com/640x360",
         "title": "Notes App",
         "tech": "React.js, Hooks, SASS, CSS Grids, Flexbox, CSS Animations, Redux, Redux-Thunk, Axios, PWA, OMDB API, Javascript, Figma",
-        "deployLink": "",
-        "repoLink": ""
+        "deployLink": "https://repeet.netlify.app",
+        "repoLink": "https://github.com/sebastianbash/notes-app"
     },
     {
         "img": "http://via.placeholder.com/640x360",
-        "title": "E-Line",
+        "title": "E-Commerce",
         "tech": "",
-        "deployLink": ""
+        "deployLink": "En Construcción"
     },
     {
         "img": "http://via.placeholder.com/640x360",
         "title": "Portfolio",
         "tech": "",
-        "deployLink": "",
-        "repoLink": ""
+        "deployLink": "https://silvasebastian.com",
+        "repoLink": "https://github.com/sebastianbash/sebastiansilva-website"
     }
 ]

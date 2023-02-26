@@ -1,10 +1,10 @@
 [
     {
         "title": "Front-End Developer",
-        "company": "Frerlance",
+        "company": "Freelance",
         "time_frame": "Actualmente",
         "start_date": "2022",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it",
+        "description": "Como freelancer, estoy comprometido a ofrecer a mis clientes un trabajo de alta calidad, una comunicación clara y una atención al detalle excepcional. Si buscas un profesional independiente que pueda ayudarte a llevar tu proyecto al siguiente nivel, ¡no dudes en contactarme!",
         "type": "dev"
     },
     {
@@ -12,7 +12,15 @@
         "company": "Instituto San Ignacion de Loyola",
         "time_frame": "Último ciclo",
         "start_date": "2019",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it",
+        "description": "Como estudiante de ingeniería de software, estoy en constante búsqueda de oportunidades para poner en práctica mis habilidades y aprender de los profesionales del campo. Me enorgullece trabajar en equipo y colaborar con otros estudiantes y profesionales en proyectos desafiantes.",
+        "type": "learning"
+    },
+    {
+        "title": "Desarrollo .Net y Base de Datos SQL",
+        "company": "Instituto IDAT",
+        "time_frame": "Curso",
+        "start_date": "2018",
+        "description": "A los 18 años, tomé la decisión de adentrarme en el mundo de la tecnología y aprender habilidades de programación. Tomé un pequeño curso de programación que me permitió aprender los fundamentos de la programación y adquirir habilidades técnicas que me han ayudado en mi carrera.",
         "type": "learning"
     }
 ]

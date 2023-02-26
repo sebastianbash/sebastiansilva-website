@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Gaming",
-        "img": "/assets/images/fav-imgs/volunteering.jpg",
+        "img": "/assets/images/fav-imgs/gaming.jpg",
         "things": "Me gustan los juegos de shooter y aventura."
     },
     {
@@ -14,7 +14,7 @@
     {
         "id": 3,
         "name": "Lectura",
-        "img": "/assets/images/fav-imgs/movies.jpg",
+        "img": "/assets/images/fav-imgs/reading.jpg",
         "things": "¿Género favorito? La Ficción me hace salir de la rutina/vida común."
     }
 ]
