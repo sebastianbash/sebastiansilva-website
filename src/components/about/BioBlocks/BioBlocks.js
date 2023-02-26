@@ -3,7 +3,7 @@ import figmaIcon from "./bio-block-icons/figma-tech-icon.svg";
 import followerIcon from "./bio-block-icons/follower-icon.svg";
 import gitIcon from "./bio-block-icons/git-tech-icon.svg";
 import jsIcon from "./bio-block-icons/js-tech-icon.svg";
-import phpStormIcon from "./bio-block-icons/phpstorm-tech-icon.svg";
+import vsCodeIcon from "./bio-block-icons/vscode-icon-g.png";
 import reactIcon from "./bio-block-icons/react-tech-icon.svg";
 import reactionIcon from "./bio-block-icons/reaction-icon.svg";
 import viewIcon from "./bio-block-icons/view-icon.svg";
@@ -25,6 +25,11 @@ function BioBlocks() {
     {
       stat: "views",
       statNumber: "0k+",
+      icon: viewIcon,
+    },
+    {
+      stat: "visitar",
+      statNumber: "",
       icon: viewIcon,
     },
   ];
@@ -69,11 +74,16 @@ function BioBlocks() {
             <img src={jsIcon} alt="JavaScript logo" />
             <img src={gitIcon} alt="Git logo" />
             <img src={figmaIcon} alt="Figma logo" />
-            <img src={phpStormIcon} alt="PHPStorm logo" />
+            <img
+              src={vsCodeIcon}
+              alt="Visual Studio Code"
+              width="20"
+              style={{ opacity: "0.5" }}
+            />
           </div>
         </div>
         <div className="block__meta-container">
-          <div className="block__meta"></div>
+          <div className="block__meta">Github</div>
           <div className="block__meta">
             <p className="block__meta-text block__work-cta">Visitar</p>
             <svg
@@ -89,10 +99,15 @@ function BioBlocks() {
           </div>
         </div>
       </a>
-      <a className="block" href="*" rel="noopener noreferrer" target="_blank">
+      <a
+        className="block"
+        href="https://pomogo.netlify.app/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <div className="block__header">
           <h5>Ver el último proyecto...</h5>
-          <h3>Portfolio</h3>
+          <h3>PomoGo</h3>
         </div>
         <div className="block__blog-container">{statElements}</div>
       </a>
