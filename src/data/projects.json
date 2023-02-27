@@ -1,26 +1,26 @@
 [
     {
-        "img": "http://via.placeholder.com/640x360",
+        "img": "/assets/images/img-links/portfolio/Card/pomogo-thumbnail.jpg",
         "title": "PomoGo",
         "tech": "",
         "deployLink": "https://pomogo.netlify.app",
         "repoLink": "https://github.com/sebastianbash/pomogo"
     },
     {
-        "img": "http://via.placeholder.com/640x360",
+        "img": "/assets/images/img-links/portfolio/Card/notes-app-thumbnail.jpg",
         "title": "Notes App",
         "tech": "React.js, Hooks, SASS, CSS Grids, Flexbox, CSS Animations, Redux, Redux-Thunk, Axios, PWA, OMDB API, Javascript, Figma",
         "deployLink": "https://repeet.netlify.app",
         "repoLink": "https://github.com/sebastianbash/notes-app"
     },
     {
-        "img": "http://via.placeholder.com/640x360",
+        "img": "/assets/images/img-links/portfolio/Card/website-under-construction.jpg",
         "title": "E-Commerce",
         "tech": "",
         "deployLink": "En Construcción"
     },
     {
-        "img": "http://via.placeholder.com/640x360",
+        "img": "/assets/images/img-links/portfolio/Card/portfolio-sebas.jpg",
         "title": "Portfolio",
         "tech": "",
         "deployLink": "https://silvasebastian.com",
